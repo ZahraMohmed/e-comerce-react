@@ -1,0 +1,5 @@
+.commom-sce{
+  background: linear-gradient(rgba(0, 0, 1, 0.418),rgba(0, 0, 1, 0.411)),url("../../assets/images/pexels-taryn-elliott-4112601.jpg") no-repeat center center ;
+  background-size: cover;
+  height: 350px;
+}
