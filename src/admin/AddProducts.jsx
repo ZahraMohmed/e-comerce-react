@@ -264,7 +264,7 @@ export default function AllProducts() {
                               setEnterCategory(e.target.value);
                             }}
                           >
-                            <MenuItem value="Sofa">Sofa</MenuItem>
+                            <MenuItem value="sofa">Sofa</MenuItem>
                             <MenuItem value="plant">Plant</MenuItem>
                             <MenuItem value="chair">Chair</MenuItem>
                             <MenuItem value="amircan chair">

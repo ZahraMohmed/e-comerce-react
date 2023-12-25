@@ -19,7 +19,7 @@ export default function AllProducts() {
 
   return (
     <>
-      <Box sx={{ height: "100vh" }}>
+      <Box >
         <Container>
           <Grid2 container sx={{ mt: "40px" }}>
             <Grid2 xs={12} md={12}>
@@ -70,7 +70,7 @@ export default function AllProducts() {
                                 }}
                               />
                             </TableCell>
-                            <TableCell align="center">{item.title}</TableCell>
+                            <TableCell align="center">{item.productName}</TableCell>
                             <TableCell align="center">
                               {item.category}
                             </TableCell>
