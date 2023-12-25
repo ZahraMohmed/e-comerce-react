@@ -172,7 +172,7 @@ export default function Home() {
                     },
                   }}
                   onClick={() => {
-                    navigate("/shope");
+                    navigate("/shop");
                   }}
                 >
                   buy now

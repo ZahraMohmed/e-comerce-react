@@ -182,10 +182,15 @@ export default function Header() {
               }}
             >
               <RedeemIcon
+              onClick={()=>{
+                navigate('/')
+              }}
                 fontSize="large"
-                sx={{  mr: "10px" }}
+                sx={{  mr: "10px" ,cursor:"pointer"}}
               />
-              <Typography sx={{ fontSize: "20px" }}>ShairMart</Typography>
+              <Typography   onClick={()=>{
+                navigate('/')
+              }} sx={{ fontSize: "20px" ,cursor:"pointer"}}>ShairMart</Typography>
             </Typography>
             <Box
               sx={{
