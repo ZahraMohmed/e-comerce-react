@@ -59,12 +59,10 @@ export default function Signup() {
         }
       );
       console.log(user);
-      setpassword("");
-      setusername("");
-      setemail("");
+    
       setloading(false);
       toast.success("Your Account has been successfully");
-      navigate("/login");
+      navigate("/");
     } catch (error) {
       toast.error("somthing Went Wrong");
     }

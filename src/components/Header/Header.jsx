@@ -92,6 +92,18 @@ export default function Header() {
           </MenuItem>
 
           <MenuItem
+            onClick={()=>{
+              navigate('/dashboard')
+            }}
+          
+            sx={{ width: "220px", textAlign: "center" }}
+          
+          >
+          
+              Dashboard
+          
+          </MenuItem>
+          <MenuItem
             onClick={() => {
               signOut(auth)
                 .then(() => {

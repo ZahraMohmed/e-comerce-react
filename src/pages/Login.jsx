@@ -42,7 +42,7 @@ export default function Login() {
         const user = userCredential.user;
         console.log(user);
         toast.success("successfully logged in");
-        navigate("/checkout");
+        navigate("/");
         // ...
       })
       .catch((error) => {
@@ -204,7 +204,7 @@ export default function Login() {
                     },
                   }}
                 >
-                  creat an account
+                  Log In 
                 </Button>
 
                 <Typography variant="body1" sx={{ mt: 4, color: grey[400] }}>
