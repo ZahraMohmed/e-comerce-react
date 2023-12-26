@@ -23,7 +23,7 @@ export default function AllProducts() {
         <Container>
           <Grid2 container sx={{ mt: "40px" }}>
             <Grid2 xs={12} md={12}>
-              <TableContainer component="table">
+              <TableContainer component="">
                 <Table sx={{ minWidth: 650 }} aria-label="simple table">
                   <TableHead>
                     <TableRow>
